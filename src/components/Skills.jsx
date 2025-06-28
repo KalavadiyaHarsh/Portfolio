@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Cards() {
+function Skills() {
   return (
     <div className='w-full h-screen bg-zinc-100 items-center px-20 flex gap-5'>
 
@@ -60,4 +60,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Skills;

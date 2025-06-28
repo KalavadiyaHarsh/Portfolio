@@ -1,39 +1,14 @@
-import React from 'react'
+// import React from 'react'
 import Navbar from './components/Navbar'
-import LandingPage from './components/LandingPage'
+import Home from './components/Home'
 import Marquee from './components/Marquee'
-import About from './components/About'
+import Experience from './components/Experience'
 import Eyes from './components/Eyes'
-import Featured from './components/Featured'
-import Cards from './components/Cards'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
 import NextEyes from './components/NextEyes'
-import Footer from './components/Footer'
+import Contact from './components/Contact'
 import LocomotiveScroll from 'locomotive-scroll';
-import FlipCard from './components/Featured'
-
-// function App() {
-
-
-//   const locomotiveScroll = new LocomotiveScroll();
-
-
-//   return (
-//     <div className='w-full h-screen'>
-//       <Navbar />
-//       <LandingPage />
-//       <Marquee />
-//       <About />  
-//       <Eyes />
-//       <Featured />  
-//       <Cards />   
-//       <NextEyes />
-//       <Footer />  
-//     </div>
-//   )
-// }
-
-
-// export default App
 
 
 function App() {
@@ -43,26 +18,26 @@ function App() {
     <div className='w-full h-screen scroll-smooth'>
       <Navbar />
       <section id="home">
-        <LandingPage />
+        <Home />
       </section>
         <Marquee />
 
       <section id="experience">
-        <About />
+        <Experience />
       </section>
         <Eyes />
 
       <section id="projects">
-        <Featured />
+        <Projects />
       </section>
 
       <section id="skills">
-        <Cards />
+        <Skills />
       </section>
         <NextEyes />
 
       <section id="contact">
-        <Footer />
+        <Contact />
       </section>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 
-function Featured() {
+function Projects() {
     const cards = [useAnimation(), useAnimation(), useAnimation(), useAnimation()];
     const [flipped, setFlipped] = useState([false, false, false, false]);
 
@@ -127,4 +127,4 @@ errors you make. A typing tool that offers practice tests and feedback to track 
     );
 }
 
-export default Featured;
+export default Projects;

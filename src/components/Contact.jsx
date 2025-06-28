@@ -3,7 +3,7 @@ import { FaGithub} from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
 
 
-function Footer() {
+function Contact() {
     return (
         <div className='w-full h-screen font-["Test_Founders_Grotesk_X-Cond_SmBd"] p-20 flex overflow-hidden'>
             <div className='w-1/2 h-full flex flex-col justify-between '>
@@ -62,4 +62,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Contact

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About() {
+function Experience() {
     return (
         <div className='w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl'>
 
@@ -13,8 +13,8 @@ function About() {
 
                     {/* Internship 1 */}
                     <div className="mb-10 font-['Test_Founders_Grotesk_X-Cond_SmBd']">
-                        <h2 className='text-xl font-bold uppercase'>MERN Stack Developer – Internship</h2>
-                        <p className='text-sm text-zinc-700 mt-1'>📍 Feb – April 2025 | <span className='font-semibold'>Infotact Solutions</span></p>
+                        <h2 className='text-xl font-bold uppercase'>MERN Stack Developer - Internship</h2>
+                        <p className='text-sm text-zinc-700 mt-1'>📍 Feb - April 2025 | <span className='font-semibold'>Infotact Solutions</span></p>
                         <ul className='list-disc pl-5 mt-2 text-[15px] leading-relaxed'>
                             <li>Built a collaborative team chat platform using the MERN stack.</li>
                             <li>Implemented JWT-based authentication, Socket.io real-time messaging, and middleware validation.</li>
@@ -25,7 +25,7 @@ function About() {
 
                     {/* Internship 2 */}
                     <div className='font-["Test_Founders_Grotesk_X-Cond_SmBd"]'>
-                        <h2 className='text-xl font-bold uppercase '>MERN Stack Developer – Internship</h2>
+                        <h2 className='text-xl font-bold uppercase '>MERN Stack Developer</h2>
                         <p className='text-sm text-zinc-700 mt-1'>📍 Currently Working (2025) | <span className='font-semibold'>Adis Technologies</span></p>
                         <ul className='list-disc pl-5 mt-2 text-[15px] leading-relaxed'>
                             <li>Contributing to modern web applications with MongoDB, Express.js, React.js, and Node.js.</li>
@@ -60,4 +60,4 @@ function About() {
     )
 }
 
-export default About;
+export default Experience;
